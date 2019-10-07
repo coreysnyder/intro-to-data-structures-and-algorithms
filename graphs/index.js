@@ -17,7 +17,7 @@ function createGraph(directed = false) {
   const edges = []
 
   return {
-    directed,
+    directed, // Defines if edges between nodes are 2-way or 1-way(directed)
     nodes,
     edges,
 

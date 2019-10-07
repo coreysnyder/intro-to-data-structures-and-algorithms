@@ -1,3 +1,11 @@
+/**
+ * Quick Sort
+ * Average Time Complexity:  O(n log n)
+ * Worst Time Complexity: O(n2)
+ * Space Complexity: O(n) auxiliary (naive); O(log n) auxiliary
+ * /*
+ **/
+
 const { printArray } = require('../utils')
 
 function quickSort(array) {
@@ -25,3 +33,5 @@ let numbers = [10, 5, 6, 3, 2, 8, 9, 4, 7, 1]
 quickSort(numbers)
 
 exports.quickSort = quickSort
+
+
